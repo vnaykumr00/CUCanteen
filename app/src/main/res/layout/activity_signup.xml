@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:text="Welcome to signup page"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview1"
+        android:textSize = "30sp"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop = "true"
+        android:textColor="#3b1cbf"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter your name"
+        android:focusable = "true"
+        android:paddingLeft="120dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_input"
+        android:textColorHighlight = "#ff7eff15"
+        android:textColorHint = "@color/black"
+        android:layout_marginTop="120dp"
+        android:paddingRight="80dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter your mobile no"
+        android:paddingLeft="90dp"
+        android:focusable = "true"
+        android:paddingRight="80dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="@drawable/custom_input"
+
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight = "#ff7eff15"
+        android:textColorHint = "@color/black"
+        android:layout_marginTop="210dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter your email"
+        android:focusable = "true"
+        android:paddingLeft="120dp"
+        android:paddingTop="15dp"
+        android:background="@drawable/custom_input"
+        android:paddingRight="80dp"
+        android:paddingBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight = "#ff7eff15"
+        android:textColorHint = "@color/black"
+        android:layout_marginTop="290dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:hint="enter your passsword"
+        android:inputType="textPassword"
+        android:background="@drawable/custom_input"
+        android:paddingRight="80dp"
+        android:paddingLeft="80dp"
+        android:focusable = "true"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight = "@color/black"
+        android:textColorHint = "@color/black"
+        android:layout_marginTop="370dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ReType-passsword"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingLeft="100dp"
+        android:focusable = "true"
+        android:background="@drawable/custom_input"
+        android:paddingRight="80dp"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight = "@color/black"
+        android:textColorHint = "@color/black"
+        android:layout_marginTop="450dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:text="vINAY"
+        android:textSize="20dp"
+        android:layout_marginLeft="37dp"
+        android:paddingRight="15dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Register"
+
+        android:background="@drawable/round"
+        android:id="@+id/lbutton"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginBottom="45dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/teal_200"
+        />
+
+    <Button
+        android:id="@+id/cbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/round"
+        android:layout_marginBottom="45dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Signup" />
+
+
+
+</RelativeLayout>
